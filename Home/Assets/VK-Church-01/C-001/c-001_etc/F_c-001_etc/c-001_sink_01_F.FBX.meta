@@ -1,0 +1,209 @@
+fileFormatVersion: 2
+guid: 6b78fc2d463d92d4eb8c68ae34ae60d5
+timeCreated: 1489882455
+licenseType: Store
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Box001
+    100004: Object108
+    100006: Object109
+    100008: Object110
+    100010: Object111
+    100012: c-001_sink_01_board
+    100014: c-001_sink_01_frame
+    100016: c-001_sink_01_sink
+    100018: c-001_sink_01_sink_hose
+    100020: Object112
+    100022: Object113
+    100024: Object114
+    100026: Object115
+    100028: Object116
+    100030: Object117
+    100032: Object118
+    100034: c-001_sink_01_door_01_L
+    100036: c-001_sink_01_door_01_R
+    100038: c-001_sink_01_door_02_L
+    100040: c-001_sink_01_door_02_R
+    100042: c-001_sink_01_door_03_L
+    100044: c-001_sink_01_door_03_R
+    100046: c-001_sink_01_door_04_01
+    100048: c-001_sink_01_door_04_02
+    100050: c-001_sink_01_door_04_03
+    100052: c-001_sink_01_range
+    400000: //RootNode
+    400002: Box001
+    400004: Object108
+    400006: Object109
+    400008: Object110
+    400010: Object111
+    400012: c-001_sink_01_board
+    400014: c-001_sink_01_frame
+    400016: c-001_sink_01_sink
+    400018: c-001_sink_01_sink_hose
+    400020: Object112
+    400022: Object113
+    400024: Object114
+    400026: Object115
+    400028: Object116
+    400030: Object117
+    400032: Object118
+    400034: c-001_sink_01_door_01_L
+    400036: c-001_sink_01_door_01_R
+    400038: c-001_sink_01_door_02_L
+    400040: c-001_sink_01_door_02_R
+    400042: c-001_sink_01_door_03_L
+    400044: c-001_sink_01_door_03_R
+    400046: c-001_sink_01_door_04_01
+    400048: c-001_sink_01_door_04_02
+    400050: c-001_sink_01_door_04_03
+    400052: c-001_sink_01_range
+    2300000: //RootNode
+    2300002: Box001
+    2300004: Object108
+    2300006: Object109
+    2300008: Object110
+    2300010: Object111
+    2300012: c-001_sink_01_board
+    2300014: c-001_sink_01_frame
+    2300016: c-001_sink_01_sink
+    2300018: c-001_sink_01_sink_hose
+    2300020: Object112
+    2300022: Object113
+    2300024: Object114
+    2300026: Object115
+    2300028: Object116
+    2300030: Object117
+    2300032: Object118
+    2300034: c-001_sink_01_door_01_L
+    2300036: c-001_sink_01_door_01_R
+    2300038: c-001_sink_01_door_02_L
+    2300040: c-001_sink_01_door_02_R
+    2300042: c-001_sink_01_door_03_L
+    2300044: c-001_sink_01_door_03_R
+    2300046: c-001_sink_01_door_04_01
+    2300048: c-001_sink_01_door_04_02
+    2300050: c-001_sink_01_door_04_03
+    2300052: c-001_sink_01_range
+    3300000: //RootNode
+    3300002: Box001
+    3300004: Object108
+    3300006: Object109
+    3300008: Object110
+    3300010: Object111
+    3300012: c-001_sink_01_board
+    3300014: c-001_sink_01_frame
+    3300016: c-001_sink_01_sink
+    3300018: c-001_sink_01_sink_hose
+    3300020: Object112
+    3300022: Object113
+    3300024: Object114
+    3300026: Object115
+    3300028: Object116
+    3300030: Object117
+    3300032: Object118
+    3300034: c-001_sink_01_door_01_L
+    3300036: c-001_sink_01_door_01_R
+    3300038: c-001_sink_01_door_02_L
+    3300040: c-001_sink_01_door_02_R
+    3300042: c-001_sink_01_door_03_L
+    3300044: c-001_sink_01_door_03_R
+    3300046: c-001_sink_01_door_04_01
+    3300048: c-001_sink_01_door_04_02
+    3300050: c-001_sink_01_door_04_03
+    3300052: c-001_sink_01_range
+    4300000: Box001
+    4300002: Object108
+    4300004: Object110
+    4300006: Object111
+    4300008: Object109
+    4300010: c-001_sink_01_frame
+    4300012: c-001_sink_01_board
+    4300014: c-001_sink_01_sink
+    4300016: c-001_sink_01_sink_hose
+    4300018: Object114
+    4300020: Object112
+    4300022: Object115
+    4300024: Object113
+    4300026: Object118
+    4300028: Object117
+    4300030: Object116
+    4300032: c-001_sink_01_door_01_L
+    4300034: c-001_sink_01_door_01_R
+    4300036: c-001_sink_01_door_02_L
+    4300038: c-001_sink_01_door_02_R
+    4300040: c-001_sink_01_door_03_L
+    4300042: c-001_sink_01_door_03_R
+    4300044: c-001_sink_01_door_04_01
+    4300046: c-001_sink_01_door_04_02
+    4300048: c-001_sink_01_door_04_03
+    4300050: c-001_sink_01_range
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

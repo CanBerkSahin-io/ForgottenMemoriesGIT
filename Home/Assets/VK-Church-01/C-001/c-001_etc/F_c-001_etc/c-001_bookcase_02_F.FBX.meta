@@ -1,0 +1,224 @@
+fileFormatVersion: 2
+guid: 222fb1a251363a24586b395d2a4fb020
+timeCreated: 1490079117
+licenseType: Store
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Box001
+    100004: Object109
+    100006: Object110
+    100008: Object111
+    100010: Object112
+    100012: Object113
+    100014: Object114
+    100016: Object115
+    100018: Object116
+    100020: Object117
+    100022: Object118
+    100024: Object119
+    100026: Object120
+    100028: Object121
+    100030: Object122
+    100032: Object123
+    100034: Object124
+    100036: Object125
+    100038: Object126
+    100040: Object127
+    100042: Object128
+    100044: Object129
+    100046: Object130
+    100048: Object131
+    100050: c-001_bookcase_02_door_01_L
+    100052: c-001_bookcase_02_door_01_R
+    100054: c-001_bookcase_02_door_02_L
+    100056: c-001_bookcase_02_door_02_R
+    100058: c-001_bookcase_02_frame
+    400000: //RootNode
+    400002: Box001
+    400004: Object109
+    400006: Object110
+    400008: Object111
+    400010: Object112
+    400012: Object113
+    400014: Object114
+    400016: Object115
+    400018: Object116
+    400020: Object117
+    400022: Object118
+    400024: Object119
+    400026: Object120
+    400028: Object121
+    400030: Object122
+    400032: Object123
+    400034: Object124
+    400036: Object125
+    400038: Object126
+    400040: Object127
+    400042: Object128
+    400044: Object129
+    400046: Object130
+    400048: Object131
+    400050: c-001_bookcase_02_door_01_L
+    400052: c-001_bookcase_02_door_01_R
+    400054: c-001_bookcase_02_door_02_L
+    400056: c-001_bookcase_02_door_02_R
+    400058: c-001_bookcase_02_frame
+    2300000: //RootNode
+    2300002: Box001
+    2300004: Object109
+    2300006: Object110
+    2300008: Object111
+    2300010: Object112
+    2300012: Object113
+    2300014: Object114
+    2300016: Object115
+    2300018: Object116
+    2300020: Object117
+    2300022: Object118
+    2300024: Object119
+    2300026: Object120
+    2300028: Object121
+    2300030: Object122
+    2300032: Object123
+    2300034: Object124
+    2300036: Object125
+    2300038: Object126
+    2300040: Object127
+    2300042: Object128
+    2300044: Object129
+    2300046: Object130
+    2300048: Object131
+    2300050: c-001_bookcase_02_door_01_L
+    2300052: c-001_bookcase_02_door_01_R
+    2300054: c-001_bookcase_02_door_02_L
+    2300056: c-001_bookcase_02_door_02_R
+    2300058: c-001_bookcase_02_frame
+    3300000: //RootNode
+    3300002: Box001
+    3300004: Object109
+    3300006: Object110
+    3300008: Object111
+    3300010: Object112
+    3300012: Object113
+    3300014: Object114
+    3300016: Object115
+    3300018: Object116
+    3300020: Object117
+    3300022: Object118
+    3300024: Object119
+    3300026: Object120
+    3300028: Object121
+    3300030: Object122
+    3300032: Object123
+    3300034: Object124
+    3300036: Object125
+    3300038: Object126
+    3300040: Object127
+    3300042: Object128
+    3300044: Object129
+    3300046: Object130
+    3300048: Object131
+    3300050: c-001_bookcase_02_door_01_L
+    3300052: c-001_bookcase_02_door_01_R
+    3300054: c-001_bookcase_02_door_02_L
+    3300056: c-001_bookcase_02_door_02_R
+    3300058: c-001_bookcase_02_frame
+    4300000: Box001
+    4300002: Object124
+    4300004: Object115
+    4300006: Object120
+    4300008: Object113
+    4300010: Object110
+    4300012: Object111
+    4300014: Object117
+    4300016: Object112
+    4300018: Object114
+    4300020: Object118
+    4300022: Object109
+    4300024: Object123
+    4300026: Object125
+    4300028: Object128
+    4300030: Object127
+    4300032: Object126
+    4300034: Object122
+    4300036: Object116
+    4300038: Object121
+    4300040: Object119
+    4300042: Object129
+    4300044: Object130
+    4300046: Object131
+    4300048: c-001_bookcase_02_frame
+    4300050: c-001_bookcase_02_door_01_R
+    4300052: c-001_bookcase_02_door_02_R
+    4300054: c-001_bookcase_02_door_02_L
+    4300056: c-001_bookcase_02_door_01_L
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,174 @@
+fileFormatVersion: 2
+guid: f2d170403781d434c846c10075040b0b
+timeCreated: 1488863961
+licenseType: Store
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Box001
+    100004: Object108
+    100006: Object109
+    100008: Object111
+    100010: Object113
+    100012: Object114
+    100014: Object115
+    100016: Object116
+    100018: Object117
+    100020: Object118
+    100022: Object119
+    100024: Object120
+    100026: Object121
+    100028: Object122
+    100030: Object123
+    100032: c-001_bookcase_01_door_01
+    100034: c-001_bookcase_01_door_02
+    100036: c-001_bookcase_01_door_03
+    100038: c-001_bookcase_01_frame
+    400000: //RootNode
+    400002: Box001
+    400004: Object108
+    400006: Object109
+    400008: Object111
+    400010: Object113
+    400012: Object114
+    400014: Object115
+    400016: Object116
+    400018: Object117
+    400020: Object118
+    400022: Object119
+    400024: Object120
+    400026: Object121
+    400028: Object122
+    400030: Object123
+    400032: c-001_bookcase_01_door_01
+    400034: c-001_bookcase_01_door_02
+    400036: c-001_bookcase_01_door_03
+    400038: c-001_bookcase_01_frame
+    2300000: //RootNode
+    2300002: Box001
+    2300004: Object108
+    2300006: Object109
+    2300008: Object111
+    2300010: Object113
+    2300012: Object114
+    2300014: Object115
+    2300016: Object116
+    2300018: Object117
+    2300020: Object118
+    2300022: Object119
+    2300024: Object120
+    2300026: Object121
+    2300028: Object122
+    2300030: Object123
+    2300032: c-001_bookcase_01_door_01
+    2300034: c-001_bookcase_01_door_02
+    2300036: c-001_bookcase_01_door_03
+    2300038: c-001_bookcase_01_frame
+    3300000: //RootNode
+    3300002: Box001
+    3300004: Object108
+    3300006: Object109
+    3300008: Object111
+    3300010: Object113
+    3300012: Object114
+    3300014: Object115
+    3300016: Object116
+    3300018: Object117
+    3300020: Object118
+    3300022: Object119
+    3300024: Object120
+    3300026: Object121
+    3300028: Object122
+    3300030: Object123
+    3300032: c-001_bookcase_01_door_01
+    3300034: c-001_bookcase_01_door_02
+    3300036: c-001_bookcase_01_door_03
+    3300038: c-001_bookcase_01_frame
+    4300000: Box001
+    4300002: Object119
+    4300004: Object117
+    4300006: Object115
+    4300008: Object121
+    4300010: Object118
+    4300012: Object109
+    4300014: Object116
+    4300016: Object113
+    4300018: Object108
+    4300020: Object111
+    4300022: Object120
+    4300024: Object123
+    4300026: Object122
+    4300028: Object114
+    4300030: c-001_bookcase_01_door_03
+    4300032: c-001_bookcase_01_frame
+    4300034: c-001_bookcase_01_door_02
+    4300036: c-001_bookcase_01_door_01
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
