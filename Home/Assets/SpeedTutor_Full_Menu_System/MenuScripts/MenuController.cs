@@ -20,8 +20,12 @@ namespace SpeedTutorMainMenuSystem
         public string _newGameButtonLevel;
         private string levelToLoad;
 
+
         private int menuNumber;
         #endregion
+
+        private int sceneToContinue;
+        
 
         #region Menu Dialogs
         [Header("Main Menu Components")]
@@ -59,8 +63,25 @@ namespace SpeedTutorMainMenuSystem
         private void Start()
         {
             menuNumber = 1;
+            Cursor.lockState = CursorLockMode.None;
+            Time.timeScale = 1;
+            Cursor.visible = true;
         }
         #endregion
+
+        public void ContinueGame()
+        {
+            sceneToContinue = PlayerPrefs.GetInt("SavedScene");
+
+            if(sceneToContinue != 0)
+            {
+                SceneManager.LoadScene(sceneToContinue);
+            }
+            else
+            {
+                return;
+            }
+        }
 
         //MAIN SECTION
         public IEnumerator ConfirmationBox()
@@ -261,11 +282,11 @@ namespace SpeedTutorMainMenuSystem
         {
             if (ButtonType == "Yes")
             {
-                if (PlayerPrefs.HasKey("SavedLevel"))
+                if (PlayerPrefs.HasKey("SavedScene"))
                 {
                     Debug.Log("I WANT TO LOAD THE SAVED GAME");
                     //LOAD LAST SAVED SCENE
-                    levelToLoad = PlayerPrefs.GetString("SavedLevel");
+                    levelToLoad = PlayerPrefs.GetString("SavedScene");
                     SceneManager.LoadScene(levelToLoad);
                 }
 

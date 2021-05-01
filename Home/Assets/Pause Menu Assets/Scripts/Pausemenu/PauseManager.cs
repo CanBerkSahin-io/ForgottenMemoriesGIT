@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.EventSystems;
 using System.IO;
+using UnityEngine.SceneManagement;
 //using UnityStandardAssets.ImageEffects;
 /// <summary>
 ///  Copyright (c) 2016 Eric Zhu 
@@ -241,6 +242,8 @@ namespace GreatArcStudios
         //Last resoultion 
         private Resolution beforeRes;
 
+        private int currentSceneIndex;
+
         //last shadow cascade value
         internal static int lastShadowCascade;
        
@@ -356,12 +359,16 @@ namespace GreatArcStudios
 
         }
         /// <summary>
-        /// Restart the level by loading the loaded level.
+        /// Save current level index code
         /// </summary>
-        public void Restart()
+        public void SaveCurrentLevel()
         {
-            Application.LoadLevel(Application.loadedLevel);
-            uiEventSystem.firstSelectedGameObject = defualtSelectedMain;
+            currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
+            PlayerPrefs.SetInt("SavedScene", currentSceneIndex);
+            Time.timeScale = 1;
+            Cursor.lockState = CursorLockMode.None;
+            Cursor.visible = true;
+            SceneManager.LoadScene(0);
         }
         /// <summary>
         /// Method to resume the game, so disable the pause menu and re-enable all other ui elements
