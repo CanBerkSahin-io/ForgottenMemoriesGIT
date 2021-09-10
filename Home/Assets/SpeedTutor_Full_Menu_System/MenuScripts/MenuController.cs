@@ -41,6 +41,11 @@ namespace SpeedTutorMainMenuSystem
         [SerializeField] private GameObject noSaveDialog;
         [SerializeField] private GameObject newGameDialog;
         [SerializeField] private GameObject loadGameDialog;
+
+        public Animator animator;
+        private int level_Load;
+        public AudioSource audiosource;
+        
         #endregion
 
         #region Slider Linking
@@ -264,12 +269,28 @@ namespace SpeedTutorMainMenuSystem
         }
         #endregion
 
+
+
+        public void FadeToLevel(int levelIndex)
+        {
+            animator.SetTrigger("FadeOut");
+        }
+
+        public void OnFadeComplete()
+        {
+            SceneManager.LoadScene(_newGameButtonLevel);
+        }
+
         #region Dialog Options - This is where we load what has been saved in player prefs!
         public void ClickNewGameDialog(string ButtonType)
         {
             if (ButtonType == "Yes")
             {
-                SceneManager.LoadScene(_newGameButtonLevel);
+                while (audiosource.volume > 0.01f)
+            {
+                audiosource.volume -= Time.deltaTime / 1f;
+            }
+                FadeToLevel(1);
             }
 
             if (ButtonType == "No")
