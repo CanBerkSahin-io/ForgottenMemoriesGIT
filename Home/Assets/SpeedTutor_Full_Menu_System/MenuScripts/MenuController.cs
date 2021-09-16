@@ -276,10 +276,23 @@ namespace SpeedTutorMainMenuSystem
             animator.SetTrigger("FadeOut");
         }
 
-        public void OnFadeComplete()
+        public void OnFadeComplete(int sceneIndex)
         {
             SceneManager.LoadScene(_newGameButtonLevel);
+            //StartCoroutine(LoadAsyncronously(sceneIndex));
         }
+
+        IEnumerator LoadAsyncronously (int sceneIndex)
+    {
+        AsyncOperation operation = SceneManager.LoadSceneAsync(sceneIndex);
+
+        while (!operation.isDone)
+        {
+            Debug.Log(operation.progress);
+
+            yield return null; 
+        }
+    }
 
         #region Dialog Options - This is where we load what has been saved in player prefs!
         public void ClickNewGameDialog(string ButtonType)

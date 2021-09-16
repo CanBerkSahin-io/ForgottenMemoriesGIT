@@ -12,6 +12,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Intro.unity
     guid: 85eb96115b57c534888e0a1b716a3593
   - enabled: 1
+    path: Assets/Scenes/Hospital.unity
+    guid: 655edf438a1397448b82b93eb0804cd7
+  - enabled: 1
     path: Assets/Scenes/House Level.unity
     guid: 2eaeeca6f337e5448a082ad56d276083
   - enabled: 1

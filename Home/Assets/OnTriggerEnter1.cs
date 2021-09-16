@@ -27,8 +27,17 @@ public class OnTriggerEnter1 : MonoBehaviour
 
     IEnumerator WaitForSec()
     {
-        yield return new WaitForSeconds(13);
-        SceneManager.LoadScene(2);
+        yield return new WaitForSeconds(8.5F);
+        AsyncOperation operation = SceneManager.LoadSceneAsync(2);
+
+        while (!operation.isDone)
+        {
+            Debug.Log(operation.progress);
+
+            yield return null; 
+        }
+        //SceneManager.LoadScene(2);
+        
 
     }
     }
