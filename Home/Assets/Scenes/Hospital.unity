@@ -381,7 +381,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 0, y: 2.4439e-41, z: 0, w: 0}
+  m_BoundingSphereOverride: {x: 0, y: 1e-45, z: 1.1509e-41, w: 1.04e-43}
   m_UseBoundingSphereOverride: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
@@ -426,6 +426,7 @@ GameObject:
   - component: {fileID: 426308510}
   - component: {fileID: 426308509}
   - component: {fileID: 426308511}
+  - component: {fileID: 426308512}
   m_Layer: 0
   m_Name: ambulance SFX
   m_TagString: Untagged
@@ -562,6 +563,18 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &426308512
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 426308508}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9827c4c9a4b130143b3cd76768518825, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &656494914
 GameObject:
   m_ObjectHideFlags: 0
@@ -5773,7 +5786,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 0, y: 3.0386e-41, z: 0, w: 0}
+  m_BoundingSphereOverride: {x: 0, y: 1.1289e-41, z: 0, w: 0}
   m_UseBoundingSphereOverride: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
@@ -5985,7 +5998,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 0, y: 2.996e-41, z: 0, w: -45.5}
+  m_BoundingSphereOverride: {x: 0, y: 1.811e-41, z: 0, w: 0}
   m_UseBoundingSphereOverride: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
