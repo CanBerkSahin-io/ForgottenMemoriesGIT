@@ -43,7 +43,7 @@ public class ColourDoor : MonoBehaviour
         }
         else if (currentSequence == correctSequence)
         {
-            dooranimator.Play("dooropenanimation");
+            dooranimator.Play("DoorAnim");
             currentSequence = "";
             Destroy(gameObject);
             Debug.Log("Completed");
