@@ -54,7 +54,7 @@ public class Laser : MonoBehaviour
                 lastHitPosition = hit.point;//
                 ray = new Ray(hit.point, Vector3.Reflect(ray.direction, hit.normal));
                 sfx.Play();
-                if(hit.collider.tag != "Mirror")
+                if(hit.collider.tag != "Object")
                 {
                     break;
                 }

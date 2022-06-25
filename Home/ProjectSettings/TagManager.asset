@@ -22,6 +22,11 @@ TagManager:
   - Fire
   - Slender
   - Battery
+  - keypad
+  - FuseInventory
+  - Fuse
+  - FuseBox
+  - PuzzleUI
   layers:
   - Default
   - TransparentFX

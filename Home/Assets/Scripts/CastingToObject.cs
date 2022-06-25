@@ -18,7 +18,8 @@ public class CastingToObject : MonoBehaviour
         if (Physics.Raycast(transform.position, transform.TransformDirection(Vector3.forward), out Hit))
         {
             toTarget = Hit.distance;
-            DistanceFromTarget = toTarget;            
+            DistanceFromTarget = toTarget; 
+              
         }
     }
 }

@@ -123,8 +123,7 @@ public class keypad : MonoBehaviour
         }
         else
         {
-            Cursor.visible = false;
-            Cursor.lockState = CursorLockMode.Locked;
+           
             fpc.enabled = true;
         }
 
