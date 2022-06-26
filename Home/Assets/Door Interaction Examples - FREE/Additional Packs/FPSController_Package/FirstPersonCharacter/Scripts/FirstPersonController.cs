@@ -42,6 +42,10 @@ namespace UnityStandardAssets.Characters.FirstPerson
         private bool m_Jumping;
         private AudioSource m_AudioSource;
 
+        public AudioSource voiceSFX;
+        public AudioClip sfxClip;
+        public float volume = 1f;
+
         // Use this for initialization
         private void Start()
         {
@@ -55,6 +59,9 @@ namespace UnityStandardAssets.Characters.FirstPerson
             m_Jumping = false;
             m_AudioSource = GetComponent<AudioSource>();
 			m_MouseLook.Init(transform , m_Camera.transform);
+            Cursor.lockState = CursorLockMode.Locked;
+
+            voiceSFX.PlayOneShot(sfxClip, volume);
         }
 
 

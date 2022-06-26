@@ -35,6 +35,11 @@ namespace ExamineSystem
         private const string interact = "Interact";
         private const string examineLayer = "ExamineLayer";
 
+        public AudioSource voiceSFX;
+        public AudioClip sfxClip;
+        public float volume = 1f;
+        public bool sfxPlayed = false;
+
         private ExamineRaycast raycastManager;
 
         public enum UIType { None, BasicLowerUI, RightSideUI }
@@ -78,7 +83,7 @@ namespace ExamineSystem
 
         public void ExamineObject(bool isExamined)
         {
-            if (isExamined)
+            if (isExamined && sfxPlayed == false)
             {
                 Examined = true;
                 ExamineAudioManager.instance.Play("ExamineInteract");
@@ -91,8 +96,9 @@ namespace ExamineSystem
                 canRotate = true;
                 examinePosition = null;
 
-                if (Examined)
+                if (Examined  && sfxPlayed == false)
                 {
+                    voiceSFX.PlayOneShot(sfxClip, volume);
                     switch (_UIType)
                     {
                         case UIType.BasicLowerUI:

@@ -69,9 +69,6 @@ public class Laser : MonoBehaviour
     }
     public void FixedUpdate()
     {
-
-        
-        
         
         Vector3 lastHitPosition = transform.position;
         ray = new Ray(hit.point, Vector3.Reflect(transform.forward, hit.normal));

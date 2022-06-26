@@ -27,6 +27,9 @@ TagManager:
   - Fuse
   - FuseBox
   - PuzzleUI
+  - Painting
+  - Painting1
+  - painting2
   layers:
   - Default
   - TransparentFX

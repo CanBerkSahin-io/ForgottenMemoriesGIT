@@ -7,6 +7,7 @@ public class ColourDoor : MonoBehaviour
 {
     [SerializeField]
     public Animator dooranimator;
+    public AudioSource doorOpen;
 
     private string correctSequence, currentSequence;
 
@@ -16,6 +17,8 @@ public class ColourDoor : MonoBehaviour
         ButtonColor.SendColorValue += AddValueAndCheckSequence;
         correctSequence = "1234";
         currentSequence = "";
+
+        doorOpen = GetComponent<AudioSource>();
     }
 
     private void AddValueAndCheckSequence(string colourButtons)
@@ -45,8 +48,9 @@ public class ColourDoor : MonoBehaviour
         {
             dooranimator.Play("DoorAnim");
             currentSequence = "";
-            Destroy(gameObject);
+            //Destroy(gameObject);
             Debug.Log("Completed");
+            doorOpen.Play();
         }
             
     }
